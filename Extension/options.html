@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Settings</title>
+  <script src="crypto-js.mini.js"></script>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    #settings { display: none; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h2>Enter Password to Access Settings</h2>
+  <input type="password" id="passwordInput" placeholder="Enter password" />
+  <button id="unlockBtn">Unlock</button>
+
+  <div id="settings">
+    <h3>Customize Global Message</h3>
+    <textarea id="messageInput" rows="4" cols="50"></textarea><br>
+    <button id="saveBtn">Save</button>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>
